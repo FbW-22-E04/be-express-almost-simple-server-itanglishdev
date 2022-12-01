@@ -38,7 +38,6 @@ const checkNumberQuery = (req, res) => {
     } else {
         res.send('Can be converted to number')
     }
-
 }
 
 app.get('/hello', greetings)
